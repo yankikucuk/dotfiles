@@ -12,6 +12,6 @@ elif [[ -z "$1" ]]; then
   else
     echo "This operating system is not supported."
   fi
-else 
+else
   echo "Usage: $0 [--server] - optional"
 fi
