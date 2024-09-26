@@ -15,8 +15,8 @@
     "enabled": true,
     "line_width": 1,
     "active_line_width": 1,
-    "coloring": "disabled",
-    "background_coloring": "indent_aware"
+    "coloring": "indent_aware",
+    "background_coloring": "disabled"
   },
   "inlay_hints": {
     "enabled": false,
