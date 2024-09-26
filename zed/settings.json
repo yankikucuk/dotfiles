@@ -1,0 +1,94 @@
+{
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false
+  },
+  "active_pane_magnification": 1.0,
+  "autosave": "off",
+  "confirm_quit": false,
+  "tabs": {
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": true
+  },
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1,
+    "active_line_width": 1,
+    "coloring": "disabled",
+    "background_coloring": "indent_aware"
+  },
+  "inlay_hints": {
+    "enabled": false,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "show_background": false,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50
+  },
+  "search": {
+    "whole_word": true,
+    "case_sensitive": true,
+    "include_ignored": false,
+    "regex": false
+  },
+  "show_whitespaces": "all",
+  "format_on_save": "on",
+  "vim_mode": false,
+  "base_keymap": "VSCode",
+  "buffer_font_family": "Roboto Mono",
+  "buffer_font_weight": 500,
+  "ui_font_size": 14,
+  "buffer_font_size": 12,
+  "journal": {
+    "path": "~",
+    "hour_format": "hour24"
+  },
+  "tab_size": 2,
+  "theme": {
+    "mode": "dark",
+    "light": "Ayu Light",
+    "dark": "Andromeda"
+  },
+  "auto_install_extensions": {
+    "astro": false,
+    "biome": false,
+    "clojure": false,
+    "dart": false,
+    "elixir": false,
+    "elm": false,
+    "emmet": false,
+    "erlang": false,
+    "fish": false,
+    "gdscript": false,
+    "gleam": false,
+    "glsl": false,
+    "groovy": false,
+    "haskell": false,
+    "java": false,
+    "julia": false,
+    "kotlin": false,
+    "nim": false,
+    "ocaml": false,
+    "php": false,
+    "prisma": false,
+    "proto": false,
+    "purescript": false,
+    "r": false,
+    "rego": false,
+    "restructuredtext": false,
+    "racket": false,
+    "roc": false,
+    "ruby": false,
+    "scala": false,
+    "scheme": false,
+    "stelve": false,
+    "swift": false,
+    "tailwindcss": false,
+    "terraform": false,
+    "uiua": false,
+    "yarn": false,
+    "zig": false
+  }
+}
