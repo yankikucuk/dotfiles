@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# some docs was here!
+
 if [[ "$1" == "--server" ]]; then
   source ./server/install.sh
 elif [[ -z "$1" ]]; then
