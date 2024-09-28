@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# some docs was here!
+
 if [[ "$1" == "--server" ]]; then
   source ./server/install.sh
 elif [[ -z "$1" ]]; then
@@ -10,6 +12,6 @@ elif [[ -z "$1" ]]; then
   else
     echo "This operating system is not supported."
   fi
-else 
+else
   echo "Usage: $0 [--server] - optional"
 fi

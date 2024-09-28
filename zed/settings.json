@@ -51,6 +51,9 @@
     "light": "Ayu Light",
     "dark": "Andromeda"
   },
+  "hard_tabs": false,
+  "remove_trailing_whitespace_on_save": true,
+  "ensure_final_newline_on_save": true,
   "auto_install_extensions": {
     "astro": false,
     "biome": false,
@@ -90,5 +93,31 @@
     "uiua": false,
     "yarn": false,
     "zig": false
+  },
+  "TOML": {
+    "formatter": "prettier",
+    "format_on_save": "off"
+  },
+  "YAML": {
+    "tab_size": 2,
+    "formatter": "prettier"
+  },
+  "JSON": {
+    "tab_size": 2,
+    "preferred_line_length": 100,
+    "formatter": "prettier"
+  },
+  "JSONC": {
+    "tab_size": 2,
+    "preferred_line_length": 100,
+    "formatter": "prettier"
+  },
+  "JavaScript": {
+    "tab_size": 2,
+    "formatter": "prettier"
+  },
+  "CSS": {
+    "tab_size": 2,
+    "formatter": "prettier"
   }
 }
