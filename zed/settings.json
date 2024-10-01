@@ -39,6 +39,7 @@
   "base_keymap": "VSCode",
   "buffer_font_family": "Roboto Mono",
   "buffer_font_weight": 500,
+  "ui_font_family": "Roboto Mono",
   "ui_font_size": 14,
   "buffer_font_size": 12,
   "journal": {
