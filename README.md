@@ -39,7 +39,7 @@ they remain under version control while they do their job from (usually) your ho
 
 To that end, we have the links.prop files, one per app dir. Looks something like this:
 
-```
+```bash
 $DOTFILES/vim/rc.vim=$HOME/.vimrc
 $DOTFILES/vim=$HOME/.vim
 ```
@@ -52,7 +52,7 @@ replace any environment variables in these lines, and then create the symlinks.
 
 The `config.sh` script also creates a file called `~/.env.sh`. By default, it includes a single line:
 
-```
+```bash
 export DOTFILES=/path/to/dotfiles
 ```
 
@@ -64,7 +64,7 @@ Then, we source `~/.env.sh` in the "root" `~/.zshrc`. Actually, there's another 
 loading several config files that may not always exist. It's a little shell function called
 `source_if_exists`:
 
-```
+```bash
 source_if_exists () {
     if test -r "$1"; then
         source "$1"
