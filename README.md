@@ -11,14 +11,14 @@ At a high level, [my dotfiles repo](https://github.com/yankikucuk/dotfiles) has 
 |_____ bookmarks
 |_____ gtk-4.0
 |_____ i3
-|_____ vscode[^1]
+|_____ vscode # just for back-up
 |_____ xdg-desktop-portal
 |_____ zed
 ```
 
 The one extra directory there is `.config`, home to the install scripts.
 
-Within each of these application directories live two[^2] types of files:
+Within each of these application directories live two[^1] types of files:
 
 - the actual config files (duh)
 - a `links.prop` file
@@ -45,7 +45,7 @@ $DOTFILES/vim=$HOME/.vim
 ```
 
 On the left, we have the source. On the right, we have the destination. This is just a simple way to
-codify the symlinks that need to be created to ".config" these configs. The `config.sh` script[^3] file will
+codify the symlinks that need to be created to ".config" these configs. The `config.sh` script[^2] file will
 replace any environment variables in these lines, and then create the symlinks.
 
 ## The Local Stuff
@@ -87,12 +87,10 @@ The nature of dotfiles is to always be evolving. Next tax season, here's my shor
   feels like a no-brainer for me.
 
 - Support Linux. The base config I have here definitely works on the linux distros I've tried (so,
-  Ubuntu, Debian, Arch[^4], Raspbian, etc.). But once I have my whole env installation set up for macOS.
+  Ubuntu, Debian, Arch[^3], Raspbian, etc.). But once I have my whole env installation set up for macOS.
 
-[^1]: Just for beck-up
+[^1]: Sometimes contains 3 or more files. And maybe only `.sh` files.
 
-[^2]: Sometimes contains 3 or more files. And maybe only `.sh` files.
+[^2]: You can find a similar script in [other people's dotfiles](https://github.com/folksgl/.dotfiles/blob/master/bootstrap.sh), but support for the `links.prop` is my own addition.
 
-[^3]: You can find a similar script in [other people's dotfiles](https://github.com/folksgl/.dotfiles/blob/master/bootstrap.sh), but support for the `links.prop` is my own addition.
-
-[^4]: By the way.
+[^3]: By the way.
