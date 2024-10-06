@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo "Hello from Debian."
+sudo apt update
+sudo apt install build-essential
+sudo apt-get install manpages-dev
